@@ -11,7 +11,7 @@ Este repositório contém o serviço de gerenciamento de usuários da SpotMusic,
 - Recuperação de senha e segurança de contas.
 
 ## Arquitetura
-Este serviço utiliza uma arquitetura de microserviços e é construído com base em APIs RESTful. Ele é projetado para ser seguro, confiável e facilmente escalável.
+Este serviço faz parte de uma arquitetura de microserviços e é construído com base em APIs RESTful. Ele é projetado para ser seguro, confiável e facilmente escalável.
 
 ## Pilha Tecnológica
 - **Linguagem de Programação:** Python com Flask
