@@ -10,13 +10,16 @@ Este repositório contém o serviço de gerenciamento de usuários da SpotMusic,
 - Integração com sistemas de terceiros para login social.
 - Recuperação de senha e segurança de contas.
 
-## Arquitetura
+## Arquitetura do serviço de gestão de usuários
+
 Este serviço faz parte de uma arquitetura de microserviços e é construído com base em APIs RESTful. Ele é projetado para ser seguro, confiável e facilmente escalável.
 
+![Diagrama da Arquitetura do serviço de gestão de usuários](./c4-model-user.drawio.png)
+
 ## Pilha Tecnológica
-- **Linguagem de Programação:** Python com Flask
-- **Banco de Dados:** MySQL (Nome do Banco: `spotmusic_db`)
-- **Eventos:** Amazon SQS (Nome da Fila: `spotmusic_queue`)
+- **Linguagem de Programação:** NodeJS
+- **Banco de Dados:** PostgreSQL no Amazon RDS
+- **Fila de Mensagens:** Amazon SQS
 - **Monitoramento:** Zabbix
 
 ## Configuração e Instalação
