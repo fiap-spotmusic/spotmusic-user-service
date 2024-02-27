@@ -1,1 +1,4 @@
-@spotmusic-user-service-team
+# Este é um exemplo de arquivo CODEOWNERS
+ 
+# Proprietários para o diretório
+*   @spotmusic-user-service-team @edu-lourenco
